@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bretzel Deutsch — Deutsch systematisch lernen</title>
+<meta name="description" content="Nemis tilini A1 dan C1 gacha tizimli oʻrganing: tushuntirish, mashq, takrorlash va keyingi qadam bir joyda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap">
+<style>
+:root{--bg:#fff;--soft:#f1f5fb;--ink:#12203a;--muted:#55627a;--line:#dce3ef;--card:#fff;--green:#14a04a;--blue:#2459d6;--yellow:#ffc933;--red:#dc3545;--on-y:#12203a;
+--serif:"Playfair Display",Georgia,serif;--sans:Roboto,system-ui,-apple-system,"Segoe UI",sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme]){--bg:#0d1526;--soft:#142039;--ink:#eef2fa;--muted:#a3b0c8;--line:#26365a;--card:#16233f;--green:#3ddc7a;--blue:#7ea3ff;--red:#ff7480;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1526;--soft:#142039;--ink:#eef2fa;--muted:#a3b0c8;--line:#26365a;--card:#16233f;--green:#3ddc7a;--blue:#7ea3ff;--red:#ff7480;color-scheme:dark}
+html{scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--sans);transition:background .3s,color .3s;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+a{color:inherit}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.15}
+h1,h2{font-family:var(--serif);font-weight:800;letter-spacing:-.01em}
+h1{font-size:clamp(2.3rem,6.4vw,4.1rem)}h2{font-size:clamp(1.8rem,4.2vw,2.6rem)}h3{font-size:1.15rem;font-weight:700}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.lead{font-size:1.15rem;color:var(--muted);max-width:56ch}
+#sp{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;height:4px;z-index:40;background:linear-gradient(90deg,var(--green),var(--blue),var(--yellow),var(--red));transform-origin:0 50%;transform:scaleX(0)}
+.bar{background:var(--ink);color:var(--bg);text-align:center;font-size:.95rem;padding:9px 16px}
+.bar a{font-weight:700;text-underline-offset:3px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line);transition:background .3s}
+.nav{display:flex;align-items:center;gap:22px;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;text-decoration:none;font-size:1.1rem;margin-right:auto}
+.logo svg{width:34px;height:34px;transition:transform .6s cubic-bezier(.3,1.6,.5,1)}
+.logo:hover svg{transform:rotate(360deg) scale(1.1)}
+.nav a.l{position:relative;text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem;padding:4px 0}
+.nav a.l::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:3px;border-radius:3px;background:var(--yellow);transform:scaleX(0);transition:transform .25s}
+.nav a.l:hover{color:var(--ink)}.nav a.l:hover::after{transform:scaleX(1)}
+.tg{width:42px;height:42px;border-radius:50%;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;font-size:1.1rem;display:grid;place-items:center;transition:transform .4s,border-color .2s}
+.tg:hover{transform:rotate(25deg) scale(1.1);border-color:var(--ink)}
+.tg .d{display:none}[data-theme="dark"] .tg .d{display:inline}[data-theme="dark"] .tg .li{display:none}
+.btn{display:inline-block;border:0;border-radius:12px;padding:14px 24px;font:700 1rem var(--sans);text-decoration:none;cursor:pointer;background:var(--green);color:#fff;box-shadow:0 4px 0 color-mix(in srgb,var(--green) 55%,#000);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(3px);box-shadow:0 1px 0 color-mix(in srgb,var(--green) 55%,#000)}
+.btn:active{transform:translateY(4px);box-shadow:0 0 0 color-mix(in srgb,var(--green) 55%,#000)}
+.btn.alt{background:var(--card);color:var(--ink);box-shadow:0 4px 0 color-mix(in srgb,var(--ink) 30%,var(--line)),inset 0 0 0 2px color-mix(in srgb,var(--ink) 30%,var(--line))}
+.btn.alt:hover{box-shadow:0 1px 0 var(--ink),inset 0 0 0 2px var(--ink)}.btn.alt:active{box-shadow:0 0 0 var(--ink),inset 0 0 0 2px var(--ink)}
+.btn.sm{padding:10px 18px;font-size:.92rem}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+@media(max-width:860px){.nav a.l{display:none}.nav{gap:12px}}
+.hero{padding:56px 0 72px;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero .lead{margin:22px 0 26px}
+.ctas{display:flex;flex-wrap:wrap;gap:14px}
+.cyc{font:800 1.35rem var(--serif);margin-top:26px;min-height:1.6em}
+.cyc .pw{display:inline-block;animation:pw .45s cubic-bezier(.3,1.5,.5,1)}
+@keyframes pw{from{opacity:0;translate:0 14px;scale:.9}}
+.facts{display:flex;flex-wrap:wrap;gap:10px 30px;margin-top:22px;color:var(--muted);font-size:.95rem}
+.facts b{color:var(--ink);font-size:1.5rem;margin-right:6px}
+@media(max-width:860px){.hero{grid-template-columns:1fr;gap:44px;padding-top:36px}}
+.hr{position:relative;padding:0 60px 56px 0}
+.fl{position:absolute;z-index:0;width:var(--s,72px);height:var(--s,72px);display:grid;place-items:center;font-weight:900;font-size:1.15rem;border:2px solid var(--ink);animation:drift var(--t,6s) ease-in-out infinite;cursor:default;transition:scale .2s}@keyframes drift{0%,100%{translate:0 0}25%{translate:var(--dx,10px) calc(var(--dy,16px)*-1)}50%{translate:calc(var(--dx,10px)*-.6) var(--dy,16px)}75%{translate:calc(var(--dx,10px)*-1) calc(var(--dy,16px)*-.4)}}
+.fl:hover{scale:1.25}
+.fl.a,.fl.b,.fl.c{border-radius:50%;padding:0}.fl.a{top:6%;right:0;--s:76px;--t:7s;--dx:10px;--dy:18px}.fl.b{top:40%;right:6px;--s:62px;--t:5.5s;--dx:-8px;--dy:14px;animation-delay:-1.6s}.fl.c{bottom:0;right:64px;--s:70px;--t:8s;--dx:14px;--dy:12px;animation-delay:-3.2s}@media(max-width:480px){.hr{padding:0 46px 48px 0}.fl.a{--s:60px}.fl.b{--s:50px}.fl.c{--s:56px;right:40px}}.fl.m{background:color-mix(in srgb,var(--blue) 35%,var(--card))}.fl.f{background:color-mix(in srgb,var(--red) 35%,var(--card))}.fl.n{background:color-mix(in srgb,var(--green) 38%,var(--card))}
+@keyframes fl{50%{translate:0 -12px}}
+.lesson{position:relative;z-index:1;background:var(--card);border:2px solid var(--ink);border-radius:20px;padding:24px;box-shadow:8px 8px 0 var(--yellow);transition:transform .15s}
+.tags{display:flex;gap:8px;flex-wrap:wrap;font-size:.8rem;font-weight:700;margin-bottom:16px}
+.tags span{padding:3px 10px;border-radius:99px;background:var(--soft)}.tags span:first-child{background:var(--blue);color:#fff}
+.de{font:800 1.7rem/1.35 var(--serif)}
+.m,.f,.n{padding:0 6px;border-radius:6px;font-style:normal}
+.m{background:color-mix(in srgb,var(--blue) 22%,transparent)}.f{background:color-mix(in srgb,var(--red) 22%,transparent)}.n{background:color-mix(in srgb,var(--green) 25%,transparent)}
+.uz{color:var(--muted);margin:6px 0 16px}
+.rule{font-size:.95rem;border-left:4px solid var(--yellow);padding:4px 0 4px 12px;margin-bottom:18px}
+.q{font-weight:700;margin-bottom:10px}
+.opts{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.opts button{font:700 1rem var(--sans);padding:10px 22px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;box-shadow:0 4px 0 var(--line);transition:transform .15s,box-shadow .15s,border-color .15s,background .15s}
+.opts button:hover{transform:translateY(4px);box-shadow:0 0 0 var(--line);border-color:var(--ink)}
+.opts button.ok{background:var(--green);border-color:var(--green);color:#fff;animation:ok .5s}
+.opts button.no{background:var(--red);border-color:var(--red);color:#fff;animation:no .4s}
+@keyframes ok{40%{transform:scale(1.2)}}@keyframes no{25%{transform:translateX(-7px)}75%{transform:translateX(7px)}}
+.opts.done button{pointer-events:none}
+#fb{min-height:3.2em;margin-top:12px;font-size:.95rem;color:var(--muted)}
+.ticker{background:var(--yellow);color:var(--on-y);overflow:hidden;white-space:nowrap;font-weight:700;padding:12px 0}
+.ticker div{display:inline-block;animation:slide 40s linear infinite}.ticker:hover div{animation-play-state:paused}
+.ticker span{margin:0 18px;display:inline-block;transition:transform .2s}.ticker span:hover{transform:scale(1.3) rotate(-4deg)}
+@keyframes slide{to{transform:translateX(-50%)}}
+section.s{padding:84px 0}section.s.soft{background:var(--soft);transition:background .3s}
+.head{margin-bottom:36px;display:grid;gap:12px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.tabs button{font:900 1.05rem var(--sans);min-width:64px;padding:12px 20px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;box-shadow:0 4px 0 var(--line);transition:transform .15s,box-shadow .15s,background .2s,color .2s}
+.tabs button:hover{transform:translateY(4px);box-shadow:0 0 0 var(--line);border-color:var(--ink)}
+.tabs button[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.track{height:10px;border-radius:9px;background:var(--line);margin-bottom:20px;overflow:hidden}
+.track i{display:block;height:100%;width:0;border-radius:9px;background:linear-gradient(90deg,var(--green),var(--yellow));transition:width .6s cubic-bezier(.3,1.2,.5,1)}
+.panel{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:28px;display:grid;grid-template-columns:1fr 1.2fr;gap:28px;animation:in .4s}
+@keyframes in{from{opacity:0;translate:0 12px}}
+.panel h3{font:800 1.8rem var(--serif);margin-bottom:8px}
+.panel ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.panel li{padding:10px 14px;border-radius:10px;background:var(--soft);transition:transform .2s,background .2s}
+.panel li:hover{transform:translateX(8px);background:var(--yellow);color:var(--on-y)}
+@media(max-width:760px){.panel{grid-template-columns:1fr}}
+.hud{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin-bottom:16px;font-weight:700}
+.hud b{font-size:1.3rem}
+.xpb{flex:1;min-width:120px;height:10px;border-radius:9px;background:var(--line);overflow:hidden}
+.xpb i{display:block;height:100%;width:0;background:var(--green);transition:width .5s}
+.ex{background:var(--card);border:2px solid var(--ink);border-radius:22px;padding:28px;box-shadow:8px 8px 0 var(--blue);min-height:330px;animation:in .4s}
+.cnt{font-size:.85rem;color:var(--muted);margin-bottom:8px;text-align:center}
+.big{font:800 clamp(1.7rem,5vw,2.4rem) var(--serif);text-align:center;margin:6px 0}
+.ex .uz{text-align:center}.ex .opts{justify-content:center;margin:16px 0}
+.ex .opts button{font-size:1.15rem;padding:12px 26px}
+.opts .mb{border-color:var(--blue)}.opts .fb2{border-color:var(--red)}.opts .nb{border-color:var(--green)}
+.opts .mb:hover{background:var(--blue);color:#fff}.opts .fb2:hover{background:var(--red);color:#fff}.opts .nb:hover{background:var(--green);color:#fff}
+#exfb{text-align:center;min-height:3.4em;color:var(--muted);margin-bottom:12px}
+.ex .btn{display:block;margin:0 auto}
+.zone{min-height:62px;border:2px dashed var(--line);border-radius:14px;padding:10px;display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;justify-content:center;align-items:center}
+.zone button{font:700 1.05rem var(--sans);padding:8px 16px;border-radius:10px;border:2px solid var(--ink);background:var(--yellow);color:var(--on-y);cursor:pointer;box-shadow:0 3px 0 var(--ink);transition:transform .15s,box-shadow .15s;animation:pw .3s}
+.zone button:hover{transform:translateY(3px);box-shadow:0 0 0 var(--ink)}
+.row{display:flex;gap:10px;justify-content:center;margin-top:10px}
+.flip{display:block;width:100%;max-width:420px;height:200px;perspective:900px;background:none;border:0;cursor:pointer;margin:12px auto 16px;padding:0}
+.fi{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.3,1.3,.5,1)}
+.flip{position:relative}.flip.on .fi{transform:rotateY(180deg)}.flip:hover .fi{translate:0 4px}
+.fa,.fz{position:absolute;inset:0;backface-visibility:hidden;border-radius:18px;display:grid;place-items:center;font:800 1.6rem var(--serif);padding:16px;border:2px solid var(--ink);color:var(--ink)}
+.fa{background:var(--soft)}.fz{background:var(--yellow);color:var(--on-y);transform:rotateY(180deg)}
+.cf{position:fixed;width:9px;height:9px;border-radius:2px;pointer-events:none;z-index:50;animation:cf .9s ease-out forwards}
+@keyframes cf{to{transform:translate(var(--x),calc(var(--y) + 140px)) rotate(420deg);opacity:0}}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:860px){.grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.card{--c:var(--blue);background:var(--card);border:2px solid var(--line);border-radius:18px;padding:22px;display:grid;gap:8px;align-content:start;transition:transform .25s cubic-bezier(.3,1.5,.5,1),box-shadow .25s,border-color .25s}
+.card:nth-child(2){--c:var(--green)}.card:nth-child(3){--c:var(--red)}.card:nth-child(4){--c:var(--yellow)}.card:nth-child(5){--c:var(--ink)}
+.card p{color:var(--muted);font-size:.97rem}
+.card:hover,.plan:hover{transform:translateY(-8px) rotate(-.8deg);border-color:var(--ink);box-shadow:8px 8px 0 var(--c)}
+.ic{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font:900 1.2rem var(--sans);color:#fff;background:var(--c)}
+.card:nth-child(4) .ic{color:var(--on-y)}.card:nth-child(5) .ic{color:var(--bg)}
+.card:hover .ic{animation:wig .5s}
+@keyframes wig{25%{rotate:-14deg;scale:1.15}75%{rotate:14deg;scale:1.15}}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:0;list-style:none;margin:0}
+.steps li{counter-increment:s;background:var(--card);border:2px solid var(--line);border-radius:18px;padding:22px;transition:transform .25s,border-color .25s}
+.steps li:hover{transform:translateY(-6px);border-color:var(--ink)}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--yellow);color:var(--on-y);font-weight:900;margin-bottom:14px;transition:transform .4s}
+.steps li:hover::before{transform:rotate(360deg) scale(1.15)}
+.steps p{color:var(--muted);font-size:.97rem;margin-top:6px}
+@media(max-width:900px){.steps{grid-template-columns:1fr 1fr}}@media(max-width:520px){.steps{grid-template-columns:1fr}}
+.three{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.three span{padding:10px 18px;border-radius:99px;background:var(--ink);color:var(--bg);font-weight:700;transition:transform .2s,background .2s}
+.three span:hover{transform:scale(1.08) rotate(-2deg);background:var(--blue);color:#fff}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}@media(max-width:860px){.plans{grid-template-columns:1fr}}
+.plan{--c:var(--yellow);background:var(--card);border:2px solid var(--line);border-radius:20px;padding:26px;display:grid;gap:14px;align-content:start;transition:transform .25s cubic-bezier(.3,1.5,.5,1),box-shadow .25s,border-color .25s}
+.plan.top{border-color:var(--ink);--c:var(--green);box-shadow:8px 8px 0 var(--green)}
+.plan ul{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:.97rem}
+.plan li::before{content:"✓ ";color:var(--green);font-weight:900}.plan li.x{color:var(--muted)}.plan li.x::before{content:"– ";color:var(--muted)}
+.price{font-weight:700;color:var(--muted)}
+details{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:10px;transition:border-color .2s,transform .2s}
+details:hover{border-color:var(--ink);transform:translateX(4px)}
+summary{font-weight:700;cursor:pointer}details p{color:var(--muted);margin-top:10px}
+details[open]{border-color:var(--green)}
+.cta{background:var(--ink);color:var(--bg);border-radius:28px;padding:60px 32px;text-align:center;display:grid;gap:18px;justify-items:center;position:relative;overflow:hidden}
+.cta .lead{color:inherit;opacity:.8}.cta .btn.alt{background:transparent;color:var(--bg);box-shadow:0 4px 0 color-mix(in srgb,var(--bg) 45%,transparent),inset 0 0 0 2px var(--bg)}.cta .btn.alt:hover{box-shadow:0 1px 0 color-mix(in srgb,var(--bg) 45%,transparent),inset 0 0 0 2px var(--bg)}.cta .btn.alt:active{box-shadow:0 0 0 transparent,inset 0 0 0 2px var(--bg)}
+.cta .pz{position:absolute;width:90px;height:90px;opacity:.12;animation:fl 6s ease-in-out infinite}
+.cta .pz:nth-child(1){left:6%;top:14%}.cta .pz:nth-child(2){right:7%;bottom:10%;animation-delay:-3s;width:120px;height:120px}
+footer{padding:36px 0 48px;color:var(--muted);font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+.js .rv{opacity:0;translate:0 24px;transition:opacity .6s,translate .6s cubic-bezier(.2,.8,.3,1);transition-delay:calc(var(--i,0)*70ms)}
+.js .rv.in{opacity:1;translate:0 0}
+@media(prefers-reduced-motion:reduce){.ticker div,.cta .pz,.cyc .pw,.panel,.ex{animation:none!important}.fl{--dx:3px;--dy:6px}html{scroll-behavior:auto}.js .rv{opacity:1;translate:none;transition:none}}
+</style>
+</head>
+<body>
+<div id="sp"></div>
+<div class="bar">Bepul daraja tekshiruvi: oʻz boshlangʻich darajangizni 5 daqiqada aniqlang. <a href="#daraja">Boshlash</a></div>
+<header><div class="wrap nav">
+<a class="logo" href="#top" aria-label="Bretzel Deutsch"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 41c-9 0-17-6-17-15 0-6 4-11 9-11s8 4 8 9c0 7-6 12-10 15M24 41c9 0 17-6 17-15 0-6-4-11-9-11s-8 4-8 9c0 7 6 12 10 15"/></svg>Bretzel Deutsch</a>
+<a class="l" href="#daraja">Darajalar</a><a class="l" href="#mashq">Mashq</a><a class="l" href="#materiallar">Materiallar</a><a class="l" href="#metod">Metod</a><a class="l" href="#narx">Rejalar</a><a class="l" href="#faq">Savollar</a>
+<button class="tg" id="theme" aria-label="Yorugʻ / qorongʻi rejimni almashtirish"><span class="li">🌙</span><span class="d">☀️</span></button>
+<a class="btn sm" href="#boshlash">Bepul boshlash</a>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+<div>
+<h1>Nemis tilini tizim bilan oʻrganing.</h1>
+<p class="lead">A1 dan C1 gacha: qisqa tushuntirish, amaliy mashq, takrorlash va keyingi qadam. Hammasi oʻzbek tilidagi izohlar bilan.</p>
+<div class="ctas"><a class="btn" href="#mashq">Hoziroq mashq qilaman</a><a class="btn alt" href="#daraja">Darajamni tanlayman</a></div>
+<p class="cyc">Heute lerne ich: <span id="cyc"></span></p>
+<div class="facts"><span><b data-n="5">0</b>daraja: A1–C1</span><span><b data-n="6">0</b>koʻnikma</span><span><b data-n="4">0</b>mashq turi</span></div>
+</div>
+<div class="hr">
+<span class="fl a m">der</span><span class="fl b f">die</span><span class="fl c n">das</span>
+<div class="lesson" id="lesson" aria-label="Namunaviy dars">
+<div class="tags"><span>A2</span><span>Grammatik</span><span>Akkusativ</span></div>
+<div class="de">Ich sehe <span class="m">den Mann</span>.</div>
+<p class="uz">Men erkakni koʻraman.</p>
+<p class="rule"><b>Esda tuting:</b> Akkusativda faqat <span class="m">der</span> → <span class="m">den</span> oʻzgaradi. <span class="f">die</span> va <span class="n">das</span> oʻzgarmaydi.</p>
+<p class="q">Ich kaufe ___ Apfel.</p>
+<div class="opts" id="opts"><button data-a="der">der</button><button data-a="den">den</button><button data-a="dem">dem</button></div>
+<p id="fb" aria-live="polite">Javobni tanlang. Tushuntirish darhol chiqadi.</p>
+</div></div>
+</div>
+
+<div class="ticker" aria-hidden="true"><div>
+<span>Artikel</span>✦<span>Akkusativ</span>✦<span>Dativ</span>✦<span>Perfekt</span>✦<span>Nebensätze</span>✦<span>Passiv</span>✦<span>Konjunktiv II</span>✦<span>Wortschatz</span>✦<span>Lesen</span>✦<span>Hören</span>✦<span>Schreiben</span>✦<span>Sprechen</span>✦
+<span>Artikel</span>✦<span>Akkusativ</span>✦<span>Dativ</span>✦<span>Perfekt</span>✦<span>Nebensätze</span>✦<span>Passiv</span>✦<span>Konjunktiv II</span>✦<span>Wortschatz</span>✦<span>Lesen</span>✦<span>Hören</span>✦<span>Schreiben</span>✦<span>Sprechen</span>✦
+</div></div>
+
+<section class="s" id="daraja"><div class="wrap">
+<div class="head rv"><h2>Qayerdan boshlaysiz?</h2><p class="lead">Darajani bosing: yoʻl chizigʻi oldinga siljiydi va mavzular koʻrinadi.</p></div>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="track"><i id="tf"></i></div>
+<div class="panel" id="panel" role="tabpanel"></div>
+</div></section>
+
+<section class="s soft" id="mashq"><div class="wrap">
+<div class="head rv"><h2>Mashq qiling: roʻyxatdan oʻtmasdan</h2><p class="lead">Toʻrt xil mashq. Har toʻgʻri javob XP beradi, xato esa nima uchun xato ekanini tushuntiradi.</p></div>
+<div class="hud rv"><span>⭐ <b id="xp">0</b> XP</span><span>🔥 <b id="stk">0</b> ketma-ket</span><span id="lv">Level 1</span><div class="xpb"><i id="xpf"></i></div></div>
+<div class="tabs rv" id="etabs"></div>
+<div class="ex" id="ex"></div>
+</div></section>
+
+<section class="s" id="materiallar"><div class="wrap">
+<div class="head rv"><h2>Oltita yoʻnalish, bitta tizim</h2><p class="lead">Grammatika bilan birga lugʻat, oʻqish, tinglash, yozish va gapirishni mashq qiling.</p></div>
+<div class="grid">
+<div class="card rv" style="--i:0"><div class="ic">G</div><h3>Grammatik</h3><p>Tartib, kelishiklar, zamonlar, ravishdosh gaplar. Qoida, misol, xatolar va mashqlar.</p></div>
+<div class="card rv" style="--i:1"><div class="ic">W</div><h3>Wortschatz</h3><p>Mavzuli soʻzlar: artikl, koʻplik, tarjima, misol gaplar, flesh-kartalar va takrorlash.</p></div>
+<div class="card rv" style="--i:2"><div class="ic">L</div><h3>Lesen</h3><p>Darajaga mos matnlar, lugʻat yordami va tushunishni tekshiruvchi savollar.</p></div>
+<div class="card rv" style="--i:3"><div class="ic">H</div><h3>Hören</h3><p>Audio topshiriqlar: qayta tinglash, savollar va kerakli joyda transkript.</p></div>
+<div class="card rv" style="--i:4"><div class="ic">S</div><h3>Schreiben</h3><p>Xabar, e-mail, shikoyat va fikr bildirish: tayyor iboralar va namunaviy matnlar.</p></div>
+<div class="card rv" style="--i:5"><div class="ic">P</div><h3>Sprechen</h3><p>Tanishuv, tavsif, munozara va rolli oʻyinlar uchun gapirish topshiriqlari.</p></div>
+</div></div></section>
+
+<section class="s soft" id="metod"><div class="wrap">
+<div class="head rv"><h2>Har bir dars bir xil tuzilgan</h2><p class="lead">Yangi mavzuda “bu qanday ishlaydi?” deb oʻylab oʻtirmaysiz. Tuzilma doim bir xil.</p></div>
+<ol class="steps">
+<li class="rv" style="--i:0"><h3>Mavzuga kirish</h3><p>Vaziyat yoki qisqa misol: dars oxirida nimani qila olasiz.</p></li>
+<li class="rv" style="--i:1"><h3>Qoida va misollar</h3><p>Qisqa tushuntirish, oʻzbekcha izoh va ajratib koʻrsatilgan misollar.</p></li>
+<li class="rv" style="--i:2"><h3>Mashq</h3><p>Avval nazoratli topshiriqlar, keyin amaliy muloqot. Javobga darhol izoh.</p></li>
+<li class="rv" style="--i:3"><h3>Takrorlash</h3><p>Qiyin joylarni saqlang, oraliqli takrorlash orqali qaytib keling.</p></li>
+</ol>
+<div class="three rv"><span>Nimani oʻrganyapman?</span><span>Bu nima uchun kerak?</span><span>Keyingi qadam qaysi?</span></div>
+</div></section>
+
+<section class="s" id="narx"><div class="wrap">
+<div class="head rv"><h2>Uch xil reja, yashirin shartlarsiz</h2><p class="lead">Farqi oddiy: materiallar hajmi va ustoz yordami bor-yoʻqligi.</p></div>
+<div class="plans">
+<div class="plan rv" style="--i:0"><h3>Bepul</h3><p class="price">Narx: 0</p><ul><li>Tanlangan darslar va mashqlar</li><li>Daraja tekshiruvi</li><li class="x">Ustoz yordami yoʻq</li></ul><a class="btn alt" href="#boshlash">Bepul boshlash</a></div>
+<div class="plan top rv" style="--i:1"><h3>Oʻzi oʻrganish</h3><p class="price">Narx tez orada eʼlon qilinadi</p><ul><li>Barcha materiallar, cheklovsiz</li><li>Progress, xatcholar, takrorlash</li><li class="x">Ustoz yordami yoʻq</li></ul><a class="btn" href="#boshlash">Qiziqaman</a></div>
+<div class="plan rv" style="--i:2"><h3>Ustoz bilan</h3><p class="price">Narx tez orada eʼlon qilinadi</p><ul><li>“Oʻzi oʻrganish” dagi hamma narsa</li><li>Ustoz yoʻriqnomasi va fikr-mulohazasi</li><li>Kelishilgan yordam</li></ul><a class="btn alt" href="#boshlash">Qiziqaman</a></div>
+</div></div></section>
+
+<section class="s soft" id="faq"><div class="wrap" style="max-width:760px">
+<div class="head rv"><h2>Koʻp beriladigan savollar</h2></div>
+<details><summary>Kimlar uchun?</summary><p>Birinchi navbatda nemis tilini oʻrganayotgan oʻzbek tilli oʻquvchilar uchun: boshlangʻich A1 dan ilgʻor C1 gacha.</p></details>
+<details><summary>Daraja tekshiruvi imtihon oʻrnini bosadimi?</summary><p>Yoʻq. U boshlash uchun mos darajani tavsiya qiladi, rasmiy imtihon emas.</p></details>
+<details><summary>Ustozsiz oʻrganish mumkinmi?</summary><p>Ha. “Bepul” va “Oʻzi oʻrganish” rejalarida ustoz yoʻq, “Ustoz bilan” rejasida fikr-mulohaza va yoʻriqnoma bor.</p></details>
+<details><summary>Telefonda ishlaydimi?</summary><p>Ha. Darslar va mashqlar avvalo telefon uchun moslangan.</p></details>
+</div></section>
+
+<section class="s" id="boshlash"><div class="wrap"><div class="cta">
+<svg class="pz" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M24 41c-9 0-17-6-17-15 0-6 4-11 9-11s8 4 8 9c0 7-6 12-10 15M24 41c9 0 17-6 17-15 0-6-4-11-9-11s-8 4-8 9c0 7 6 12 10 15"/></svg>
+<svg class="pz" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M24 41c-9 0-17-6-17-15 0-6 4-11 9-11s8 4 8 9c0 7-6 12-10 15M24 41c9 0 17-6 17-15 0-6-4-11-9-11s-8 4-8 9c0 7 6 12 10 15"/></svg>
+<h2>Birinchi darsni bugun tugating</h2>
+<p class="lead">Darajangizni tanlang, bitta dars oʻting va keyingi qadamni koʻring.</p>
+<div class="ctas" style="justify-content:center"><a class="btn" href="https://t.me/bretzeldeutsch" target="_blank" rel="noopener">Telegram orqali boshlash</a><a class="btn alt" href="#mashq">Avval mashq qilaman</a></div>
+</div></div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Bretzel Deutsch</span><a href="https://t.me/bretzeldeutsch" target="_blank" rel="noopener">Telegram: @bretzeldeutsch</a><span>Deutsch systematisch lernen</span></div></footer>
+
+<script>
+var $=function(s){return document.querySelector(s)},root=document.documentElement,
+RM=window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+root.classList.add("js");
+/* theme */
+var th;try{th=localStorage.getItem("bd-theme")}catch(e){}
+root.setAttribute("data-theme",th||"light");
+$("#theme").onclick=function(){var t=root.getAttribute("data-theme")==="dark"?"light":"dark";root.setAttribute("data-theme",t);try{localStorage.setItem("bd-theme",t)}catch(e){}};
+/* scroll progress */
+function sc(){var h=root.scrollHeight-innerHeight;$("#sp").style.transform="scaleX("+(h>0?scrollY/h:0)+")"}
+addEventListener("scroll",sc,{passive:true});sc();
+/* reveal + count up */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.15});
+[].forEach.call(document.querySelectorAll(".rv"),function(el){io.observe(el)});
+[].forEach.call(document.querySelectorAll("[data-n]"),function(el){var n=+el.dataset.n,i=0;if(RM){el.textContent=n;return}var t=setInterval(function(){el.textContent=++i;if(i>=n)clearInterval(t)},180)});
+/* hero cycler */
+var W=[["der","m","Tisch"],["die","f","Lampe"],["das","n","Buch"],["der","m","Apfel"],["die","f","Schule"],["das","n","Wasser"]],wi=0;
+function cyc(){var w=W[wi++%W.length];$("#cyc").innerHTML='<b class="pw"><span class="'+w[1]+'">'+w[0]+'</span> '+w[2]+'</b>'}
+cyc();setInterval(cyc,2200);
+/* tilt */
+var ls=$("#lesson");
+if(!RM&&matchMedia("(hover:hover)").matches){ls.addEventListener("pointermove",function(e){var r=ls.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;ls.style.transform="perspective(900px) rotateY("+x*8+"deg) rotateX("+-y*8+"deg)"});ls.addEventListener("pointerleave",function(){ls.style.transform=""})}
+/* confetti + xp */
+var S={xp:0,st:0};
+function pop(el){if(RM)return;var r=el.getBoundingClientRect(),c=["#14a04a","#2459d6","#ffc933","#dc3545"];for(var i=0;i<18;i++){var p=document.createElement("i");p.className="cf";p.style.left=r.left+r.width/2+"px";p.style.top=r.top+r.height/2+"px";p.style.background=c[i%4];p.style.setProperty("--x",Math.random()*260-130+"px");p.style.setProperty("--y",-60-Math.random()*150+"px");document.body.appendChild(p);setTimeout(function(q){return function(){q.remove()}}(p),900)}}
+function hud(){$("#xp").textContent=S.xp;$("#stk").textContent=S.st;$("#lv").textContent="Level "+(Math.floor(S.xp/50)+1);$("#xpf").style.width=S.xp%50*2+"%"}
+function win(el){S.xp+=10;S.st++;hud();pop(el)}function lose(){S.st=0;hud()}
+/* hero quiz */
+$("#opts").addEventListener("click",function(e){var b=e.target.closest("button"),fb=$("#fb");if(!b)return;
+[].forEach.call(this.children,function(x){x.className=""});
+if(b.dataset.a==="den"){b.className="ok";fb.textContent="Toʻgʻri! Apfel — der-soʻz, Akkusativda “den Apfel”.";pop(b)}
+else{b.className="no";fb.textContent=b.dataset.a==="der"?"Yaqin. “der” — Nominativ. Fe’ldan keyin Akkusativ kerak: den.":"“dem” — Dativ. “kaufen” Akkusativ talab qiladi: den Apfel."}});
+/* levels */
+var L=[["A1","Oʻzingizni tanishtirish, kundalik iboralar, oddiy savollar.",["Talaffuz va alifbo","Artikel va koʻplik","Präsens","Savol gaplar"]],
+["A2","Oddiy suhbatlar, xarid, yoʻl-yoʻriq, oʻtgan voqealar haqida gapirish.",["Perfekt","Akkusativ va Dativ","Modalverben","Kundalik muloqot"]],
+["B1","Fikr bildirish, xat yozish, tanish mavzularda erkin gapirish.",["Nebensätze (weil, dass)","Präteritum","Konjunktiv II asoslari","Xat va fikr bildirish"]],
+["B2","Murakkab matnlarni tushunish, imtihon va ish uchun aniq ifodalash.",["Passiv","Relativsätze","Konnektoren","B2 Schreiben: Beschwerde"]],
+["C1","Aniq va nozik ifoda, akademik va kasbiy til.",["Nominalisierung","Konjunktiv I","Akademik lugʻat","Murakkab matnlar"]]];
+var tabs=$("#tabs"),panel=$("#panel");
+function show(i){[].forEach.call(tabs.children,function(b,j){b.setAttribute("aria-selected",j===i)});var d=L[i];
+$("#tf").style.width=(i+1)/5*100+"%";
+panel.style.animation="none";panel.offsetWidth;panel.style.animation="";
+panel.innerHTML="<div><h3>"+d[0]+"</h3><p>"+d[1]+"</p></div><ul>"+d[2].map(function(m){return"<li>"+m+"</li>"}).join("")+"</ul>"}
+L.forEach(function(d,i){var b=document.createElement("button");b.textContent=d[0];b.setAttribute("role","tab");b.onclick=function(){show(i)};tabs.appendChild(b)});show(0);
+/* exercises */
+function sh(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+var A=sh([["Apfel","der","olma"],["Tisch","der","stol"],["Buch","das","kitob"],["Haus","das","uy"],["Lampe","die","lampa"],["Tür","die","eshik"],["Schule","die","maktab"],["Kind","das","bola"],["Straße","die","koʻcha"],["Brot","das","non"],["Stadt","die","shahar"],["Wasser","das","suv"],["Hund","der","it"],["Fenster","das","deraza"]]);
+var G=[["Ich habe ___ Hund.",["einen","ein","einem"],"“haben” Akkusativ talab qiladi: der Hund → einen Hund."],
+["Wir fahren mit ___ Bus.",["dem","den","der"],"“mit” doim Dativ bilan keladi: dem Bus."],
+["Gestern ___ ich ins Kino gegangen.",["bin","habe","war"],"“gehen” Perfektda “sein” bilan: ich bin gegangen."],
+["Ich weiß, ___ er heute kommt.",["dass","das","was"],"“dass” ergash gapni bogʻlaydi, fe’l esa oxirga ketadi."],
+["Er ___ gern Pizza.",["isst","esse","essen"],"essen: er isst (e → i oʻzgaradi)."],
+["Das Buch liegt auf ___ Tisch.",["dem","den","das"],"“liegt” — joy (wo?) savoli, shuning uchun Dativ: auf dem Tisch."],
+["Ich schenke ___ Mutter Blumen.",["meiner","meine","meinen"],"schenken: shaxs Dativda — die Mutter → der Mutter → meiner Mutter."],
+["Wenn ich Zeit hätte, ___ ich mehr reisen.",["würde","wurde","werde"],"Konjunktiv II: würde + Infinitiv."]];
+var T=[["Ertaga maktabga boraman.",["Ich","gehe","morgen","in","die","Schule"],["ich gehe morgen in die schule","morgen gehe ich in die schule"]],
+["Men uning bugun kelishini bilaman.",["Ich","weiß","dass","er","heute","kommt"],["ich weiß dass er heute kommt","dass er heute kommt weiß ich"]],
+["Charchaganim uchun uyda qolaman.",["Ich","bleibe","zu","Hause","weil","ich","müde","bin"],["ich bleibe zu hause weil ich müde bin","weil ich müde bin bleibe ich zu hause"]]];
+var K=[["Guten Morgen","Xayrli tong"],["Wie geht’s?","Ahvollaring qanday?"],["Ich heiße …","Mening ismim …"],["Entschuldigung","Kechirasiz"],["Wie viel kostet das?","Bu qancha turadi?"],["Ich verstehe nicht","Tushunmayapman"],["Können Sie das wiederholen?","Takrorlay olasizmi?"],["Wo ist der Bahnhof?","Vokzal qayerda?"]];
+var mode="a",ix={a:0,g:0,t:0,k:0},tb={pool:[],built:[]},ex=$("#ex"),ET=[["a","Artikel"],["g","Lückentext"],["t","Satzbau"],["k","Karten"]];
+var et=$("#etabs");
+function etab(){[].forEach.call(et.children,function(b){b.setAttribute("aria-selected",b.dataset.m===mode)})}
+ET.forEach(function(x){var b=document.createElement("button");b.textContent=x[1];b.dataset.m=x[0];b.onclick=function(){mode=x[0];tb.fresh=1;R();etab()};et.appendChild(b)});
+var NX='<button class="btn sm" data-next>Keyingisi</button>';
+function R(keep){var h="",i;
+if(mode==="a"){var d=A[ix.a%A.length];h='<p class="cnt">'+(ix.a%A.length+1)+" / "+A.length+'</p><div class="big">___ '+d[0]+'</div><p class="uz">'+d[2]+'</p><div class="opts"><button class="mb" data-v="der">der</button><button class="fb2" data-v="die">die</button><button class="nb" data-v="das">das</button></div><p id="exfb" aria-live="polite">Artiklni tanlang.</p>'}
+else if(mode==="g"){var g=G[ix.g%G.length];h='<p class="cnt">'+(ix.g%G.length+1)+" / "+G.length+'</p><div class="big">'+g[0]+'</div><div class="opts">'+sh(g[1]).map(function(o){return'<button data-v="'+o+'">'+o+"</button>"}).join("")+'</div><p id="exfb" aria-live="polite">Toʻgʻri soʻzni tanlang.</p>'}
+else if(mode==="t"){var t=T[ix.t%T.length];if(!keep||tb.fresh){tb.pool=sh(t[1].map(function(w){return w}));tb.built=[];tb.fresh=0}
+h='<p class="cnt">'+(ix.t%T.length+1)+" / "+T.length+'</p><div class="big" style="font-size:1.4rem">'+t[0]+'</div><div class="zone" id="zb">'+tb.built.map(function(w,i){return'<button data-s="b" data-w="'+i+'">'+w+"</button>"}).join("")+'</div><div class="zone" style="border-style:solid">'+tb.pool.map(function(w,i){return'<button data-s="p" data-w="'+i+'" style="background:var(--soft);color:var(--ink)">'+w+"</button>"}).join("")+'</div><div class="row"><button class="btn sm alt" id="clr">Tozalash</button><button class="btn sm" id="chk">Tekshirish</button></div><p id="exfb" aria-live="polite" style="margin-top:12px">Soʻzlarni toʻgʻri tartibda qoʻying.</p>'}
+else{var k=K[ix.k%K.length];h='<p class="cnt">'+(ix.k%K.length+1)+" / "+K.length+' · kartani bosing</p><button class="flip" aria-label="Kartani aylantirish"><span class="fi"><span class="fa">'+k[0]+'</span><span class="fz">'+k[1]+"</span></span></button>"+NX}
+ex.innerHTML=h}
+ex.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;
+if(b.hasAttribute("data-next")){ix[mode]++;tb.fresh=1;R();return}
+if(b.classList.contains("flip")){b.classList.toggle("on");return}
+if(b.dataset.v!==undefined){var o=b.parentNode;if(o.classList.contains("done"))return;
+var d,ok,msg,right;
+if(mode==="a"){d=A[ix.a%A.length];right=d[1];ok=b.dataset.v===right;msg=(ok?"Toʻgʻri! ":"Yoʻq. ")+d[1]+" "+d[0]+" — "+d[2]+"."}
+else{d=G[ix.g%G.length];right=d[1][0];ok=b.dataset.v===right;msg=(ok?"Toʻgʻri! ":"Yoʻq. ")+d[2]}
+o.classList.add("done");b.classList.add(ok?"ok":"no");
+if(!ok)[].forEach.call(o.children,function(x){if(x.dataset.v===right)x.classList.add("ok")});
+ok?win(b):lose();$("#exfb").innerHTML=msg;ex.insertAdjacentHTML("beforeend",NX);return}
+if(b.dataset.w!==undefined){var i=+b.dataset.w,f=b.dataset.s==="p"?tb.pool:tb.built,to=b.dataset.s==="p"?tb.built:tb.pool;to.push(f.splice(i,1)[0]);R(1);return}
+if(b.id==="clr"){tb.fresh=1;R();return}
+if(b.id==="chk"){var t=T[ix.t%T.length];if(tb.built.length<t[1].length){$("#exfb").textContent="Avval hamma soʻzlarni qoʻying.";return}
+var s=tb.built.join(" ").toLowerCase();if(t[2].indexOf(s)>-1){win(b);$("#exfb").textContent="Toʻgʻri! Fe’l oʻrni qoidasi ishladi.";b.remove();$("#clr").remove();ex.insertAdjacentHTML("beforeend",NX)}else{lose();$("#exfb").textContent="Hali emas. Eslatma: oddiy gapda fe’l 2-oʻrinda, “weil” va “dass” dan keyin esa oxirida."}}});
+R();etab();hud();
+</script>
+</body>
+</html>
